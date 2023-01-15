@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>runtime.freebsd-arm64.Microsoft.NETCore.DotNetHostResolver</id>
+    <version>7.0.0-preview.7.22375.6</version>
+    <title>runtime.freebsd-arm64.Microsoft.NETCore.DotNetHostResolver</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Internal implementation package not meant for direct consumption. Please do not reference directly. 
+Provides an implementation of framework resolution strategy used by Microsoft.NETCore.DotNetHost</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/runtime" commit="eecb02807867cad56cd05badddef65e432248b75" />
+    <dependencies>
+      <dependency id="Microsoft.NETCore.DotNetAppHost" version="7.0.0-preview.7.22375.6" />
+    </dependencies>
+  </metadata>
+</package>
