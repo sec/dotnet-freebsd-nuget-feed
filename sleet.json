@@ -1,0 +1,12 @@
+{
+  "username": "",
+  "useremail": "",
+  "sources": [
+    {
+      "name": "dotnet-freebsd-nuget-feed",
+      "type": "local",
+      "path": "v3/",
+      "baseURI": "https://sec.github.io/dotnet-freebsd-nuget-feed/v3"
+    }
+  ]
+}
